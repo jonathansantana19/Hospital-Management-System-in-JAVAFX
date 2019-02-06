@@ -91,6 +91,7 @@ public class LoginController implements Initializable {
                 Scene scene = new Scene(decorator);
                 scene.getStylesheets().add(HospitalFX.class.getResource("/styles/styles.css").toExternalForm());
                 stage.initStyle(StageStyle.UNDECORATED);
+                stage.setMaximized(true);
                 stage.setScene(scene);
 
                 stage.setIconified(false);
